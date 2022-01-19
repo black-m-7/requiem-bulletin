@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+nav {
+  margin: auto;
+  max-width: 60vw;
+  padding: 14px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  padding: 0 5vw;
+  text-decoration: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item a:hover {
+  color: #808080;
+}
+
+.active a{
+  color: #808080;
+}
+
+.AddPost {
+  width: 50vw;
+  margin: auto;
+}
+
+.AddPost form  {
+  margin: 30px 0;
+  text-align: justify;
+
+}
+
+.AddPost .row-one {
+  display: flex;
+}
+
+textarea {
+  width: 44vw;
+  height: 5vw;
+  font-size: 1em;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.AddPost input {
+  width: 250px;
+  margin: 5px 0;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.9em;
+}
+
+.AddPost button {
+  border: 2px solid black;
+  background-color: white;
+  height: 5vw;
+  margin: 5px;
+  width:6vw;
+}
+
+.AddPost button:hover {
+  background-color: #d3d3d3;
+}
+
+.Posts {
+  width: 50vw;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.Post {
+  border-bottom: 1px solid #808080;
+}
+
+.Post:first-child {
+  border-top: 1px solid #808080;
+} 
+
+.Post:last-child {
+  border-bottom: none;
+}
+
+.Post .title {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+.Post .title h4 {
+  margin: 0;
+}
+
+.Post .title p {
+  color: #808080;
+  margin: 0px 10px;
+}
+
+.Footer {
+  padding: 20px 0;
+  border-top: 2px solid black;
+  width: 60vw;
+  margin: auto;
+}
